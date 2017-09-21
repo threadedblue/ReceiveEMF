@@ -1,0 +1,7 @@
+{
+	"federateName": "ReceiveMain",
+	"federation": "FedManager",
+	"fomFile": "conf/TripleFederation.xml",
+	"lookahead": "0.1",
+	"stepsize": "1.0" 
+}

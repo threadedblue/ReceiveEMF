@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectModel
+	xsi:schemaLocation="http://standards.ieee.org/IEEE1516-2010 http://standards.ieee.org/downloads/1516/1516.2-2010/IEEE1516-DIF-2010.xsd"
+	xmlns="http://standards.ieee.org/IEEE1516-2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelIdentification />
+    <objects>
+        <objectClass>
+            <name>HLAobjectRoot</name>
+            <sharing>Neither</sharing>
+            <semantics></semantics>
+        </objectClass>
+    </objects>
+    <interactions>    
+    	<interactionClass>
+    <name>HLAinteractionRoot</name>
+    <sharing>Neither</sharing>
+    <transportation>HLAreliable</transportation>
+    <order>TimeStamp</order>
+    
+        
+            <interactionClass> 
+    <name>Int1</name>
+    <sharing>PublishSubscribe</sharing>
+    <transportation>HLAreliable</transportation>
+    <order>TimeStamp</order>
+    <parameter> 
+        <name>boolVal</name>
+        <dataType>boolean</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>intVal</name>
+        <dataType>int</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>strVal</name>
+        <dataType>String</dataType>
+        <semantics></semantics>
+    </parameter>
+            </interactionClass>
+    
+            <interactionClass>
+    <name>Int2</name>
+    <sharing>PublishSubscribe</sharing>
+    <transportation>HLAreliable</transportation>
+    <order>TimeStamp</order>
+    <parameter> 
+        <name>boolVal</name>
+        <dataType>boolean</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>intVal</name>
+        <dataType>int</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>strVal</name>
+        <dataType>String</dataType>
+        <semantics></semantics>
+    </parameter>
+            </interactionClass>
+    
+            <interactionClass>
+    <name>Int3</name>
+    <sharing>PublishSubscribe</sharing>
+    <transportation>HLAreliable</transportation>
+    <order>TimeStamp</order>
+    <parameter> 
+        <name>boolVal</name>
+        <dataType>boolean</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>intVal</name>
+        <dataType>int</dataType>
+        <semantics></semantics>
+    </parameter>
+    <parameter> 
+        <name>strVal</name>
+        <dataType>String</dataType>
+        <semantics></semantics>
+    </parameter>
+    </interactionClass>
+    </interactionClass>
+	</interactions>
+	<dimensions />
+</objectModel>
